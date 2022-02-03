@@ -1,1 +1,29 @@
-здесь будут стили
+* {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: merriweather;
+    src: url("assets/fonts/Merriweather-Italic.ttf");
+}
+
+@font-face {
+    font-family: roboto;
+    src: url("assets/fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.name {
+color:slateblue;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
