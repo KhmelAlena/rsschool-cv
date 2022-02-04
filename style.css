@@ -16,14 +16,61 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: roboto;
+    font-weight: bold;
+    background-color:lemonchiffon;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  html {
+    scroll-behavior: smooth; 
   }
 
 .name {
-color:slateblue;
+color:#783D0E;
+font-size: xx-large;
+text-decoration: underline;
+line-height: 5;
 }
 
 .nav-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #34495E;
+    font-size: larger;
+    transition: .3s;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section {
+    width: 50%;
+  }
+
+ 
+  .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+  }
+
+  .section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
   }
