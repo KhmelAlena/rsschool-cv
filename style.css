@@ -76,18 +76,26 @@ justify-content: space-around;
     font-size: 20px;
     font-weight: 350;
     text-transform:capitalize;
+    line-height: 1.5;
+    list-style: none;
+    text-align: left;
+    margin-left: -3%;
   }
 
   .skills-item {
     font-size: 20px;
     font-weight: 350;
     text-transform:capitalize;
+    line-height: 1.5;
+    list-style: none;
+    margin-left: -3%;
   }
 
   .section-summary-me {
     font-size: 20px;
     font-weight: 350;
     text-transform:capitalize;
+    line-height: 1.5;
   }
 
   .code-item {
@@ -114,7 +122,14 @@ justify-content: space-around;
     text-transform:capitalize;
   }
 
-  @media (max-width: 768px) {
+  .project-item {
+    font-size: 20px;
+    font-weight: 350;
+    text-transform:capitalize;
+    color: black;
+  }
+
+   @media (max-width: 768px) {
     .section {
       width: 100%;
     }
