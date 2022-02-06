@@ -17,8 +17,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: roboto;
-    font-weight: bold;
-    background-color:lemonchiffon;
+    background-color:#DEF4FF  ;
   }
 
   .container {
@@ -35,6 +34,8 @@ color:#783D0E;
 font-size: xx-large;
 text-decoration: underline;
 line-height: 5;
+display: flex;
+justify-content: space-around;
 }
 
 .nav-list {
@@ -60,17 +61,90 @@ line-height: 5;
 
   .section {
     width: 50%;
+    padding: 20px 20px 20px 20px;
   }
 
- 
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    color: #34495E;
+  }
+
+  .contacts-item {
+    font-size: 20px;
+    font-weight: 350;
+    text-transform:capitalize;
+  }
+
+  .skills-item {
+    font-size: 20px;
+    font-weight: 350;
+    text-transform:capitalize;
+  }
+
+  .section-summary-me {
+    font-size: 20px;
+    font-weight: 350;
+    text-transform:capitalize;
+  }
+
+  .code-item {
+    font-size: 20px;
+    font-weight: 350;
+    text-transform:capitalize; 
+  }
+
+  .courses-item {
+    font-size: 20px;
+    font-weight: 350;
+    text-transform:capitalize; 
+  }
+
+  .ed-item {
+    font-size: 20px;
+    font-weight: 350;
+    text-transform:capitalize; 
+  }
+
+  .lan-item {
+    font-size: 20px;
+    font-weight: 350;
+    text-transform:capitalize;
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
   .image {
     width: 200px;
     height: 200px;
     border-radius: 50%
   }
 
-  .section-profile {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+  .img-rss {
+    width: 75px;
+    height: 75px;
   }
+
+  .header-container {
+    border: solid 1px #BBAEA3 ;
+  background-color: #BBAEA3;
+  }
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: solid 1px #BBAEA3 ;
+  background-color: #BBAEA3;
+}
+
+.link-github {
+  color: black;
+}
