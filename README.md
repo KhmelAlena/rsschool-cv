@@ -1,2 +1,2 @@
-# rsschool-cv1
-https://KhmelAlena.github.io/rsschool-cv1/CV
+# rsschool-cv
+https://KhmelAlena.github.io/rsschool-cv1/cv
